@@ -1,0 +1,46 @@
+.btn {
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 2px;
+  transition: 0.1s;
+  cursor: pointer;
+  min-width: 20px;
+}
+
+.btn-dark {
+  background-color: rgb(49, 49, 49);
+}
+
+.btn-info {
+  background-color: rgb(14, 122, 223);
+}
+
+.btn-danger {
+  background-color: rgb(231, 71, 71);
+}
+
+.btn-info:active {
+  background-color: rgb(50, 138, 221);
+}
+
+.btn-danger:active {
+  background-color: rgb(233, 103, 103);
+}
+
+.btn-dark:active {
+  background-color: rgb(94, 94, 94);
+}
+
+article {
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+img {
+  width: 100%;
+}
+
+article .body {
+  padding: 10px;
+}
